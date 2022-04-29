@@ -52,12 +52,18 @@ of HTML buttons using CSS. Get practice searching the internet for proper docume
 .profileInfoButton {
 	background-color: #ffe800;
 	border: 2px solid black;
+	border-radius: 25px;
  	color: white;
-	height: 100px;
-	width: 250px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	height: 75px;
+	width: 175px;
 	padding: 1rem;
     margin-bottom: 1rem;
   	text-align: center;
   	display: inline-block;
-  	font-size: 30px;
+  	font-size: 20px;
+	font-weight: 900;
+	vertical-align: middle;
+	padding: 0.5em var(--padding-x);
 }
