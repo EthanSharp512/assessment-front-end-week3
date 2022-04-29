@@ -36,3 +36,28 @@ input {
 img {
 	max-width: 300px;
 }
+
+
+
+
+
+
+
+/* styles.css that makes the buttons larger and yellow.
+
+You are encouraged to do independent research how how to change the size and color
+
+of HTML buttons using CSS. Get practice searching the internet for proper documentation on HTML/CSS! * */
+
+.profileInfoButton {
+	background-color: #ffe800;
+	border: 2px solid black;
+ 	color: white;
+	height: 100px;
+	width: 250px;
+	padding: 1rem;
+    margin-bottom: 1rem;
+  	text-align: center;
+  	display: inline-block;
+  	font-size: 30px;
+}
